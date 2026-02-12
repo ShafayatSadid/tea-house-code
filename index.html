@@ -27,24 +27,105 @@
 <body>
 
     <!-- Banner Section Started -->
-    <section class="banner grid grid-cols-2 container mx-auto">
+    <section class="banner grid grid-cols-1 gap-16 md:gap-0 md:grid-cols-2 container mx-auto mt-16 px-3 md:px-0">
 
         <!-- Left Banner -->
         <div class="banner-left space-y-[30px]">
 
-            <h2 class="text-[5rem] font-bold">It's good<br>tea time at The<br>Tea House</h2>
+            <!-- Banner title and btn -->
+            <h2 class="text-[3rem] md:text-[5.5rem] font-bold max-w-[300px] md:max-w-[628px]">It's good tea time at The Tea House</h2>
 
-            <p class="text-[1.125rem] text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum<br>Satisfaction To Your Taste Buds.</p>
+            <p class="text-[1.125rem] text-[#777777] max-w-[513px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
 
-            <button class="py-5 px-5 rounded-[10px] bg-linear-to-r from-[#ff8938] to-[#ff0000] text-white font-semibold">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            <button class="py-4 md:py-5 px-4 md:px-5 rounded-[5px] md:rounded-[10px] bg-linear-to-r from-[#ff8938] to-[#ff0000] text-white text-[1rem] md:text-xl font-semibold">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
 
         </div>
 
         <!-- Right Banner -->
-        <div class="banner-right">
+        <div class="banner-right flex justify-end items-end relative">
+
             <img src="./images/banner.png" alt="">
+
+            <!-- Rating Card -->
+            <div class="ratingCard bg-white rounded-xl shadow-2xl flex justify-evenly items-center w-[170px] md:w-[255px] h-17 md:h-[100px] absolute left-18 md:left-56 bottom-5 md:bottom-9">
+
+                <!-- Rating image -->
+                <img class="w-10 md:w-12" src="./images/ratingStar.png" alt="">
+
+                <!-- Rating Text -->
+                <div class="ratingText">
+
+                    <h2 class="text-xl md:text-[1.875rem] font-bold text-[#1c1c1c]">5.00</h2>
+
+                    <p class="text-[0.8rem] md:text-[1rem] text-[#777777] font-semibold">Trust Pilot Ratings</p>
+
+                </div>
+
+            </div>
         </div>
     </section>
+
+    <!-- Featured Section -->
+    <section class="">
+
+        <!-- Featured title -->
+        <h2 class="text-[2rem] md:text-[3rem] font-bold text-center mt-35 mb-7">Our Featured Products</h2>
+
+        <p class="text-center max-w-[901px] mx-auto text-[#777777] mb-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+        <!-- Featured Cards -->
+
+        <div class="featuredCards flex flex-wrap justify-center items-center gap-5 md:gap-6 mt-10 container mx-auto">
+
+            <!-- Card 1 --> 
+
+            <div class="card bg-linear-to-r from-white to-gray-100 rounded-xl shadow-2xl p-5 w-[267px] text-center items-center pb-[35px]"> 
+
+                <img class="mx-auto mt-[30px] mb-[30px]" src="./images/tea-1.png" alt=""> 
+
+                <h2 class="text-xl md:text-[1.875rem] font-bold text-[#1c1c1c] mb-[15px]">Milk Tea</h2> 
+                <p class="text-[#777777] text-[0.8rem] md:text-[1rem]">Creamer could be replaced by fresh milk</p> 
+
+            </div> 
+                
+            <!-- Card 2 --> 
+            <div class="card bg-linear-to-r from-white to-gray-100 rounded-2xl shadow-2xl p-5 w-[267px] text-center items-center pb-[35px]"> 
+
+                <img class="mx-auto mt-[30px] mb-[30px]" src="./images/tea-2.png" alt=""> 
+
+                <h2 class="text-xl md:text-[1.875rem] font-bold text-[#1c1c1c] mb-[15px]">Black Tea</h2> 
+                <p class="text-[#777777] text-[0.8rem] md:text-[1rem]">Creamer could be replaced by fresh milk</p> 
+
+            </div> 
+                    
+            <!-- Card 3 --> 
+
+            <div class="card bg-linear-to-r from-white to-gray-100 shadow-2xl rounded-2xl p-5 w-[267px] text-center items-center pb-[35px]"> 
+                        
+                <img class="mx-auto mt-[30px] mb-[30px]" src="./images/tea-3.png" alt=""> 
+
+                <h2 class="text-xl md:text-[1.875rem] font-bold text-[#1c1c1c] mb-[15px]">Herbal Tea</h2>
+
+                <p class="text-[#777777] text-[0.8rem] md:text-[1rem]">Creamer could be replaced by fresh milk</p> 
+
+            </div> 
+
+            <!-- Card 4 --> 
+
+            <div class="card bg-linear-to-r from-white to-gray-100 shadow-2xl rounded-2xl p-5 w-[267px] text-center items-center pb-[35px]"> 
+                        
+                <img class="mx-auto mt-[30px] mb-[30px]" src="./images/tea-4.png" alt=""> 
+
+                <h2 class="text-xl md:text-[1.875rem] font-bold text-[#1c1c1c] mb-[15px]">Herbal Tea</h2>
+
+                <p class="text-[#777777] text-[0.8rem] md:text-[1rem]">Creamer could be replaced by fresh milk</p> 
+
+            </div> 
+
+        </div>
+    </section>
+
+    
     
 </body>
 </html>
